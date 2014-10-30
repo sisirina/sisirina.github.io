@@ -1,0 +1,38 @@
+body {
+	background-color: rgb(192,192,192);
+}
+
+p {
+	font-size: 14px;
+}
+
+.children {
+	width: 300px;
+}
+
+.dog {
+	width: 300px;
+}
+
+.husband {
+	width: 300px;
+}
+
+section {
+	float: left;
+	margin: 0 1.5%;
+	width: 63%;
+} 
+
+aside {
+	float: right;
+	margin: 0 1.5%;
+	width: 30%;
+}
+
+header { outline: 1px solid red; }
+section { outline: 1px solid blue; }
+aside { outline: 1px solid green; }
+footer { outline: 1px solid orange; }
+footer {clear: both;}
+
